@@ -835,3 +835,22 @@ h1 {
     height: 3.6rem;
   }
 }
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.legend span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.legend-icon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
